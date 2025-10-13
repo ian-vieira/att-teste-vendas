@@ -16,35 +16,35 @@ public class Produto {
     }
 
     public void setNome(String nome) {
-<span class="nc" id="L19">        this.nome = nome;</span>
-<span class="nc" id="L20">    }</span>
+<span class="fc" id="L19">        this.nome = nome;</span>
+<span class="fc" id="L20">    }</span>
 
     public double getPreco() {
 <span class="fc" id="L23">        return preco;</span>
     }
 
     public void setPreco(double preco) {
-<span class="nc" id="L27">        this.preco = preco;</span>
-<span class="nc" id="L28">    }</span>
+<span class="fc" id="L27">        this.preco = preco;</span>
+<span class="fc" id="L28">    }</span>
 
     public int getEstoque() {
 <span class="fc" id="L31">        return estoque;</span>
     }
 
     public void setEstoque(int estoque) {
-<span class="nc" id="L35">        this.estoque = estoque;</span>
-<span class="nc" id="L36">    }</span>
+<span class="fc" id="L35">        this.estoque = estoque;</span>
+<span class="fc" id="L36">    }</span>
 
     public boolean diminuirEstoque(int quantidade) {
-<span class="nc bnc" id="L39" title="All 2 branches missed.">        if (estoque &gt;= quantidade) {</span>
-<span class="nc" id="L40">            estoque -= quantidade;</span>
-<span class="nc" id="L41">            return true;</span>
+<span class="fc bfc" id="L39" title="All 2 branches covered.">        if (estoque &gt;= quantidade) {</span>
+<span class="fc" id="L40">            estoque -= quantidade;</span>
+<span class="fc" id="L41">            return true;</span>
         }
-<span class="nc" id="L43">        return false;</span>
+<span class="fc" id="L43">        return false;</span>
     }
 
     public void aumentarEstoque(int quantidade) {
-<span class="nc" id="L47">        estoque += quantidade;</span>
-<span class="nc" id="L48">    }</span>
+<span class="fc" id="L47">        estoque += quantidade;</span>
+<span class="fc" id="L48">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
